@@ -1,0 +1,89 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:skyblue ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: .4}
+  to {opacity: .7}
+}
+
+@keyframes fadeIn {
+  from {opacity: .4}
+  to {opacity: .7}
+}
+#home {
+  background-image: url("../img/4.jpg");
+  }
+.jumbotron{
+  background-color: lightgreen;
+  margin-top: 30%;
+  opacity: 0.7;
+  width: 50vh;
+  font-family: 'Boogaloo', cursive;
+  font-size: 60px
+}
+
+#about{
+  background-image: url("../img/6.jpg");
+}
+#personal {
+  font-family: 'Boogaloo', cursive;
+  background-color: skyblue;
+}
+#education{
+  font-family: 'Boogaloo', cursive;
+  background-color: white;
+
+}
+#experience{
+  font-family: 'Boogaloo', cursive;
+  background-color: skyblue;
+}
+#projects{
+  font-family: 'Boogaloo', cursive;
+  background-color: white;
+}
+
+.container{
+  opacity: 0.9
+}
+h1{
+  text-decoration: underline;
+}
+#contact{
+  background-image: url("../img/5.png");
+  background-position: top;
+}
